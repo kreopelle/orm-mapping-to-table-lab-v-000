@@ -39,7 +39,7 @@ class Student
   end
 
   def self.create(attr_hash)
-    student = Student.new(:name, :value)
+    student = Student.new(:name, :grade)
     student.save
     student
   end
